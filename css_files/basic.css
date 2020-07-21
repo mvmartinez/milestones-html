@@ -1,0 +1,23 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.descp{
+  font-family: monospace;
+}
+
+.quoteCredit{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#intro > h2{
+  color: #269635;
+}
+
+#cRank, #sRank, #align{
+  margin: 1rem auto;
+}
+
+table, tr, th, td{
+  border: solid #269635 3px;
+}
