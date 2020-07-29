@@ -21,3 +21,8 @@ body{
 table, tr, th, td{
   border: solid #269635 3px;
 }
+
+img{
+  width: 50%;
+  height: auto;
+}
