@@ -1,74 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" type="text/css"  href="css_files/cmd.css">
+
+<head>
+    <!-- Dont forget to add the meta tags to your head
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    -->
+    <link rel="stylesheet" type="text/css" href="css_files/cmd.css">
     <title>Command Line</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <nav>
-      <p><a href = "index.html">Home</a></p>
-      <p><a href = "cmd_line.html">Command Line</a></p>
-      <p><a href = "publish.html">Publishing to Surge</a></p>
-      <p><a href = "structure.html">HTML Structure</a></p>
-      <p><a href = "basic-css.html">Basic CSS</a></p>
-      <p><a href = "basic-tags.html">Basic Tags</a></p>
-      <p><a href = "basic-tags-styles.html">Basic Tag Styles</a></p>
-      <p><a href = "multimedia.html">Multimedia</a></p>
-      <p><a href = "snippet.html">HTML Anatomy</a></p>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="cmd_line.html">Command Line</a></p>
+        <p><a href="publish.html">Publishing to Surge</a></p>
+        <p><a href="structure.html">HTML Structure</a></p>
+        <p><a href="basic-css.html">Basic CSS</a></p>
+        <p><a href="basic-tags.html">Basic Tags</a></p>
+        <p><a href="basic-tags-styles.html">Basic Tag Styles</a></p>
+        <p><a href="multimedia.html">Multimedia</a></p>
+        <p><a href="snippet.html">HTML Anatomy</a></p>
     </nav>
 
     <!--git bash use-->
     <article>
-      <h2>Maria's Guide to the Command Line &#40;On Windows&#41;</h2>
-      <ul>
-        <!--git bash download-->
-        <li>
-          <p class = "heading">Download <a href = "https://gitforwindows.org/">Gitbash</a></p>
-          <img src = "pics/git-site.png" alt = "git website screenshot">
-          <p class = "description">Gitbash allows for Windows Users to use the Git-as in Github-command line.</p>
-          <p class = "description">MAKE SURE YOU OPEN GIT BASH NOT CMD OR GUI, I made this mistake and none of the commands worked for me.</p>
-          <img src ="pics/git-search.png" alt = "git bash on computer screenshot">
-        </li>
-        <!--cd function-->
-        <li>
-          <p class = "heading">Navigating Directories</p>
-          <p>In order to go to a certain directory use "cd".</p>
-          <img src="pics/cd-git.png" alt = "git using cd screenshot">
-          <p>Quick Tip: if you're struggling to find a specific directory, go to your files and "Copy address."</p>
-          <img src = "pics/cd-filepath-1.png" alt = "copy address from file folder screenshot">
-          <img src = "pics/cd-filepath-2.png" alt = "past address into git bash screenshot">
-        </li>
-        <!--ls function-->
-        <li>
-          <p class = "heading">Inside Directories</p>
-          <p class = "description">The "ls" function allows you to see everything in the directory you're in.</p>
-          <img src = "pics/ls-git.png" alt = "calling ls in terminalscreenshot">
-        </li>
-        <!--Making a directory-->
-        <li>
-          <p class = "heading">Making a Directory</p>
-          <p class = "description">Use the "mkdir" function to make a new directory</p>
-          <img src = "pics/before-new-dir.png" alt = "how to make new directory">
-          <img src = "pics/after-new-dir.png" alt = "new directory in files example">
+        <h2>Maria's Guide to the Command Line &#40;On Windows&#41;</h2>
+        <ul>
+            <!--git bash download-->
+            <li>
+                <p class="heading">Download <a href="https://gitforwindows.org/">Gitbash</a></p>
+                <img src="pics/git-site.png" alt="git website screenshot">
+                <p class="description">Gitbash allows for Windows Users to use the Git-as in Github-command line.</p>
+                <p class="description">MAKE SURE YOU OPEN GIT BASH NOT CMD OR GUI, I made this mistake and none of the commands worked for me.</p>
+                <img src="pics/git-search.png" alt="git bash on computer screenshot">
+            </li>
+            <!--cd function-->
+            <li>
+                <p class="heading">Navigating Directories</p>
+                <p>In order to go to a certain directory use "cd".</p>
+                <img src="pics/cd-git.png" alt="git using cd screenshot">
+                <p>Quick Tip: if you're struggling to find a specific directory, go to your files and "Copy address."</p>
+                <img src="pics/cd-filepath-1.png" alt="copy address from file folder screenshot">
+                <img src="pics/cd-filepath-2.png" alt="past address into git bash screenshot">
+            </li>
+            <!--ls function-->
+            <li>
+                <p class="heading">Inside Directories</p>
+                <p class="description">The "ls" function allows you to see everything in the directory you're in.</p>
+                <img src="pics/ls-git.png" alt="calling ls in terminalscreenshot">
+            </li>
+            <!--Making a directory-->
+            <li>
+                <p class="heading">Making a Directory</p>
+                <p class="description">Use the "mkdir" function to make a new directory</p>
+                <img src="pics/before-new-dir.png" alt="how to make new directory">
+                <img src="pics/after-new-dir.png" alt="new directory in files example">
 
-        </li>
-        <!--Making an empty file-->
-        <li>
-          <p class = "heading">Making an Empty File</p>
-          <p class = "description">Use the "touch" function to make a new empty file.</p>
-          <img src = "pics/new-file-term.png" alt = "making new file in directory screenshot">
-          <p class = "description">The result:</p>
-          <img src = "pics/new-file-fold.png" alt = "new file in directory screenshot">
-        </li>
-        <!--Opening VS Code-->
-        <li>
-          <p class = "heading">Opening VS Code</p>
-          <p class = "description">Use the "code" function to open VS Code through the terminal</p>
-          <img src = "pics/code-sc.png" alt = "how to call code screenshot">
-        </li>
-      </ul>
+            </li>
+            <!--Making an empty file-->
+            <li>
+                <p class="heading">Making an Empty File</p>
+                <p class="description">Use the "touch" function to make a new empty file.</p>
+                <img src="pics/new-file-term.png" alt="making new file in directory screenshot">
+                <p class="description">The result:</p>
+                <img src="pics/new-file-fold.png" alt="new file in directory screenshot">
+            </li>
+            <!--Opening VS Code-->
+            <li>
+                <p class="heading">Opening VS Code</p>
+                <p class="description">Use the "code" function to open VS Code through the terminal</p>
+                <img src="pics/code-sc.png" alt="how to call code screenshot">
+            </li>
+        </ul>
     </article>
     <footer>
     </footer>
-  </body>
+</body>
+
 </html>
